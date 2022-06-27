@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+    padding: 2%;
+}
+
+.menu_button {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.container {
+    /* Used to position the video and content */
+    position: relative;
+}
+
+.container__wrapper {
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+
+    /* Hide the scrollbar */
+    overflow: hidden;
+}
+
+.container__video {
+    /* Center the video */
+    height: auto;
+    /* Take full width */
+    width: 100%;
+}
+
+.container__content {
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.849);
+    color: white;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+.container_text {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_button {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+}
+
+.container_button a {
+    background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,27,246,1) 42%, rgba(255,149,0,1) 100%);
+padding: 10%;
+text-decoration: none;
+color: white;
+border-radius: 300px;
+font-size: 30px;
+}
+
+.page_content {
+    margin-top: -500px;
+    z-index: 999;
+}

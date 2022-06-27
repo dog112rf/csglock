@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a href="" class="menu_button">Новости</a>
+            <a href="" class="menu_button">Форум</a>
+            <a href="" class="menu_button">Файлы</a>
+            <a href="" class="menu_button">Статьи</a>
+            <a href="" class="menu_button">FAQ</a>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- The video container -->
+        <div class="container__wrapper">
+            <video muted="muted" autoplay="autoplay" class="container__video" loop>
+
+                <source src="/background.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+              
+                <source src="/bg.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+              
+                <source src="/bg.ogv" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+                <object data="video.swf" type="application/x-shockwave-flash"><!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
+              
+                  <param name="movie" value="video.swf">
+                </object>
+              
+              </video>
+        </div>
+    
+        <!-- The content -->
+        <div class="container__content">
+            <div class="container_text">
+            <h1>CSGLOCK</h1>
+            <h2>Проект по кс 1.6 с нотками CS:GO</h2>
+        </div>
+        <div class="container_button">
+            <a href="#play" class="container_button_href">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Играть&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+        </div>
+    </div>
+    <div class="page_content">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+</body>
+</html>
